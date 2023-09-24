@@ -1,0 +1,145 @@
+body{
+    background: #E8E8E8;
+}
+
+.top-hr {
+    flex-grow: 1;
+    height: 1px;
+    border: none;
+    background: #8B8B8B;
+}
+.and-hr{
+    flex-grow: 1;
+    height: 1px;
+    border: none;
+    background:#E5EAF1
+}
+
+.top-block {
+    display: flex;
+    align-items: center;
+}
+.top-h1 {
+    color: #333;
+    font-family: Mont;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-right: 75px; 
+    margin-left: 260px;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 20px;
+}
+
+container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px; 
+    width: 750px; 
+    margin:0 auto;
+    margin-bottom: 1.5rem !important;
+
+}
+
+.link {
+    height: 65px;
+    display: flex;
+    align-items: center;
+    gap: 43px;
+  }
+  
+.header-item__link ,h1 {
+    
+    font-family: Mont;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+.text-info{
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.information{
+    width: 90%;
+    padding:30px;
+}
+
+table{
+    text-align: left;
+    padding-left: 15px;
+    height: 92px;
+    flex-shrink: 0;
+}
+
+.text-info-1{
+    width: 580px;
+}
+.text-info-2{
+    width: 250px;
+}
+
+tbody{
+    color: #333;
+    font-family: Mont;
+    font-size: 12px;
+    font-style: normal;
+}
+tbody tr th{
+    font-weight: 700;
+    line-height: 24px;
+}
+tbody tr td{
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.block-group {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E8E8E8;
+    
+    gap: 1.5rem !important;
+}
+
+#test{
+    background-color: white;
+    border-radius: 10px;
+    height: 450px;
+}
+.block-left {
+    display: flex;
+    width: 364px;
+    padding: 25px 25px 30px 25px;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    order: 1;
+}
+
+.block-right {
+    display: flex;
+    width: 364px;
+    padding: 25px 25px 30px 25px;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    order: 2;
+}
+
+.block-group a{
+    color: #333;
+    text-align: center;
+    font-family: Mont;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
