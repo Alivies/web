@@ -1,0 +1,109 @@
+body * {
+    font-family: 'Montserrat';
+}
+h1 {
+    padding: 35px 0px 65px 0px;
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2 {
+    font-family: 'Montserrat-Bold';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3 {
+    font-family: 'Montserrat-Bold';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.btn{
+    width: 300px;
+}
+.navbar-brand.wrapper {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-right: 50%;
+}
+.card{
+    height: 400px;
+}
+.navbar.wrapper {
+    padding-bottom: 4.5rem;
+}
+.nav-item.wrapper {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+#title {
+    background-color: #ff3c68;
+    color: white;
+    padding: 55px 150px 55px 150px;
+    position: relative;
+}
+#features {
+    text-align: center;
+    padding: 55px 150px 55px 150px;
+    position: relative;
+}
+#testimonials {
+    text-align: center;
+    color: white;
+    background-color:  #ef8172;
+    padding: 55px 170px 100px 170px;
+    position: relative;
+}
+#press {
+    text-align: center;
+    padding-bottom: 3%;
+    background-color:  #ef8172;
+    position: relative;
+    padding-bottom: 75px;
+}
+#pricing {
+    text-align: center;
+    padding: 55px 150px 55px 150px;
+    position: relative;
+}
+#cta {
+    text-align: center;
+    background-color: #ff3c68;
+    color: white;
+    padding: 45px 150px 0px 150px;
+    position: relative;
+}
+#footer {
+    text-align: center;
+    padding: 45px 150px 0px 150px;
+    position: relative;
+}
+.tel-image {
+    width: 15%;
+    transform: rotate(25deg);
+    right: 28%;
+    object-fit:cover;
+    position: absolute;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+.press_logo {
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
