@@ -1,0 +1,27 @@
+.form-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    display: table;
+    border-spacing: 10px;
+}
+
+.content label {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.content input {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.button {
+    display: block;
+    margin: 10px auto;
+}
