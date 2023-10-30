@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    background-color: #283149;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+  
+  }
+  
+  footer {
+    color: #DBEDF3;
+    font-family: sans-serif;
+  }
+  
+  .set {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    margin: 10% auto;
+  }
+  
+  .w {
+    position: absolute;
+    bottom: 200px;
+    left: calc(50% - 175px);
+  }
+  
+  .a {
+    position: absolute;
+    bottom: 200px;
+    left: calc(50% + 25px);
+  }
+  
+  .s {
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 257px);
+  }
+  
+  .d {
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% + 125px);
+  }
+  
+  .j {
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% + 200px);
+  }
+  
+  .k {
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 125px);
+  }
+  
+  .l {
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 350px);
+  }
+  
+  .drum {
+    background-color: transparent;
+    border: 0;
+    border-radius: 1500px;
+  }
+  
+  .hit {
+    background: #DA0463;
+  }
